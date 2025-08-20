@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-20T09:13:20 IST" name="Google Cucumber TestNG Suite" finished-at="2025-08-20T09:13:29 IST" duration-ms="9160">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.runners.TestRunner@2f48b3d2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-08-20T09:13:20 IST" name="Cucumber Tests" finished-at="2025-08-20T09:13:29 IST" duration-ms="9160">
+      <class name="com.framework.runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.framework.runners.TestRunner@2f48b3d2]" started-at="2025-08-20T09:13:20 IST" name="setUpClass" finished-at="2025-08-20T09:13:20 IST" duration-ms="668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e39baf0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.runners.TestRunner@2f48b3d2]" started-at="2025-08-20T09:13:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-20T09:13:29 IST" duration-ms="8317" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for a term on Google"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Google Search"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No search results found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No search results found expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.framework.stepdefinitions.GoogleSearchSteps.results_should_be_shown_with_the_query(GoogleSearchSteps.java:43)
+at ✽.results should be shown with the query "OpenAI"(file:///E:/Project/Automation_Selenium_cucumber/google-cucumber-testng-framework/src/test/resources/features/GoogleSearch.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.framework.runners.TestRunner@2f48b3d2]" started-at="2025-08-20T09:13:29 IST" name="tearDownClass" finished-at="2025-08-20T09:13:29 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.framework.runners.TestRunner -->
+    </test> <!-- Cucumber Tests -->
+  </suite> <!-- Google Cucumber TestNG Suite -->
+</testng-results>
