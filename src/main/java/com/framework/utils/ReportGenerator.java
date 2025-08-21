@@ -7,7 +7,7 @@ package com.framework.utils;
 public class ReportGenerator {
 
 //    @AfterSuite
-    public void generateAllureReport()  {
+    public void generateAllureReport(){
 //        try {
 //            String command = "allure generate target/allure-results -o target/allure-report --clean";
 //            Process process = Runtime.getRuntime().exec(command);
