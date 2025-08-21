@@ -1,12 +1,9 @@
-2025-08-20 09:13:19.984 INFO  org.testng.internal.Utils - [TestNG] Running:
-  E:\Project\Automation_Selenium_cucumber\google-cucumber-testng-framework\testng.xml
-
-2025-08-20 09:13:20.864 INFO  com.framework.stepdefinitions.Hooks - Initializing WebDriver
-2025-08-20 09:13:21.631 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
-2025-08-20 09:13:21.661 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\17sub\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
-2025-08-20 09:13:23.396 INFO  com.framework.stepdefinitions.Hooks - Navigating to https://www.google.com
-2025-08-20 09:13:25.608 INFO  c.f.s.GoogleSearchSteps - On Google home page
-2025-08-20 09:13:25.623 INFO  c.f.s.GoogleSearchSteps - Searching for: OpenAI
-2025-08-20 09:13:28.088 INFO  c.f.s.GoogleSearchSteps - Number of results captured: 0
-2025-08-20 09:13:28.119 ERROR com.framework.stepdefinitions.Hooks - Scenario failed: Search for a term on Google
-2025-08-20 09:13:28.325 INFO  com.framework.stepdefinitions.Hooks - Quitting WebDriver
+2025-08-21 11:47:21.525 INFO  com.framework.stepdefinitions.Hooks - Initializing WebDriver
+2025-08-21 11:47:25.705 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+2025-08-21 11:47:25.783 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\17sub\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+2025-08-21 11:47:39.322 INFO  com.framework.stepdefinitions.Hooks - Navigating to https://www.google.com
+2025-08-21 11:47:41.361 INFO  c.f.s.GoogleSearchSteps - On Google home page
+2025-08-21 11:47:41.366 INFO  c.f.s.GoogleSearchSteps - Searching for: OpenAI
+2025-08-21 11:47:44.220 INFO  c.f.s.GoogleSearchSteps - Number of results captured: 0
+2025-08-21 11:47:44.272 ERROR com.framework.stepdefinitions.Hooks - Scenario failed: Search for a term on Google
+2025-08-21 11:47:44.456 INFO  com.framework.stepdefinitions.Hooks - Quitting WebDriver
