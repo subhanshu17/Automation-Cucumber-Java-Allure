@@ -1,12 +1,12 @@
 package com.framework.utils;
 
-import org.testng.annotations.AfterSuite;
-
-import java.io.IOException;
+//import org.testng.annotations.AfterSuite;
+//
+//import java.io.IOException;
 
 public class ReportGenerator {
 
-    @AfterSuite
+//    @AfterSuite
     public void generateAllureReport() {
 //        try {
 //            String command = "allure generate target/allure-results -o target/allure-report --clean";
